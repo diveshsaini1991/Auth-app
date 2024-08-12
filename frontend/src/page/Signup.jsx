@@ -24,7 +24,7 @@ const Signup = () => {
       return handelerr("All feilds are required")
     }
     try{
-      const url = "http://localhost:3001/auth/signup";
+      const url = "https://auth-app-1y6dfn9ef-divesh-sainis-projects-d9532adf.vercel.app/auth/signup";
       const response = await fetch(url , {
         method:"POST",
         headers:{
