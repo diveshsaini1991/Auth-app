@@ -20,7 +20,7 @@ const Home = () => {
   }
   const getproducts = async ()=>{
     try{
-      const url ="https://auth-app-1y6dfn9ef-divesh-sainis-projects-d9532adf.vercel.app/products";
+      const url ="https://auth-app-api-seven.vercel.app/products";
       const headers={
         headers:{
           "Authorization":localStorage.getItem("token")
