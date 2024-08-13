@@ -1,5 +1,5 @@
 
-# Authentication App using MERN Stack
+# Authentication App using MERN Stack 🔑
 
 This is a simple authentication app built using the MERN (MongoDB, Express, React, Node.js) stack. The app allows users to sign up, log in, and log out, with features such as password hashing, JWT token authentication, input validation, and CORS enabled for cross-origin resource sharing.
 
@@ -112,6 +112,11 @@ PORT=3001
 MONGO_URL= your_mongodb_uri
 JWT_SECRET= your_secret_token
 ```
+
+
+## Demo
+
+link - https://auth-app-frontend-dun.vercel.app/login
 
 
 # Contributing to the Authentication App Project🤝
