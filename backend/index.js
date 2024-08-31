@@ -14,13 +14,14 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
 app.use(cors({
-  origin: 'https://auth-app-frontend-dun.vercel.app'
+  origin: 'https://auth-app-frontend-dun.vercel.app',
+  allowedHeaders: ['Content-Type', 'Authorization'],
+  methods: ['GET', 'POST', 'PUT', 'DELETE']
 }));
 
 app.get("/ping",(req,res)=>{
     res.send("PONG");
 })
-
 
 app.use("/auth",authrouter)
 app.use("/products",productrouter)
